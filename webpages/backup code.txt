@@ -1,0 +1,13 @@
+<table cellspacing=25 align="center">
+<tr>
+<td><a href="https://www.facebook.com/"><img src="fb.png" height=45 width=50 title="Facebook"></a>
+<td><a href="https://twitter.com/"><img src="twitter.ico" height=45 width=50 title="Twitter"></a>
+<td><a href="https://www.whatsapp.com/"><img src="whatsapp.png" height=45 width=50 title="Whatsapp"></a>
+<td><a href="https://en.wikipedia.org/wiki/RSS"><img src="rss.png" height=45 width=50 title="RSS Feed"></a>                                 <td><a href="https://www.blogger.com/"><img src="blogger.png" height=45 width=50 title="Blogger"></a>
+<td><a href="https://www.youtube.com/"><img src="youtube.png" height=45 width=50 title="Youtube"></a>
+<td><a href="https://plus.google.com/"><img src="google.png" height=45 width=50 title="Google+"></a>
+<td><a href="https://in.pinterest.com/"><img src="pinterest.png" height=45 width=50 title="Pinterest"></a>
+</tr>
+</table>
+
+

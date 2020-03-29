@@ -1,0 +1,187 @@
+<html>
+<head>
+<script language=javascript>
+function password()
+{
+frm.txt2.value=frm.txt1.value+"123";
+}
+function show()
+{
+frm.txt3.value=frm.txt1.value+"123";
+}
+function al()
+{
+var name=document.frm.t1.value;  
+var username=document.frm.txt1.value;  
+var contact=document.frm.t2.value;  
+if ((name==null)||(name=" "))
+{  
+  alert("Name can't be blank");
+return false;  
+}
+else if((username==null)||(username=" "))
+{  
+  alert("Please enter a valid username."); 
+return false;
+}
+else if((contact==null)||(contact.length<10))
+{ 
+alert("Please enter a valid contact number."); 
+return false;
+}
+else
+{ 
+alert("Your account has been created succesfully!");
+}
+}
+</script>
+</head>
+<form name=frm>
+<body>
+<table bgcolor=silver width=100%>
+<tr>
+<td><img src=h1.jpg align=left width=150> 
+<td>
+<table align=right cellspacing=15 cellpadding=10>
+<tr>
+<td background="bg1.jpg"><font color="white" face="Aharoni"><b> Sign in </b></font>
+</tr>
+</table>
+</tr>
+</table>
+<p align=center><font face="Calibri Light" size=11> Create your Account </font></p>
+<table align=center>
+<tr>
+<td align=center><font color=grey face="Calibri Light" size=5>One account is all you need
+<td bgcolor=silver rowspan=7>
+<table>
+<tr>
+<td><font face="Calibri Light"><b> Name 
+</tr>
+<tr>
+<td> <input type=text value=First size=18 name=t1>&nbsp;<input type=text value=Last size=18>
+</tr>
+<tr>
+<td><font face="Calibri Light"><b> Choose your username
+</tr>
+<tr>
+<td> <input type=text size=41 name=txt1>
+</tr>
+<tr>
+<td><font face="Calibri Light"><b> Birthday
+</tr>
+<tr>
+<td> <select> 
+<option> January
+<option> February
+<option> March
+<option> April
+<option> May
+<option> June
+<option> July
+<option> August
+<option> September
+<option> October
+<option> November
+<option> December
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=text value=Day size=10>&nbsp;<input type=text value=Year size=10>
+</tr>
+<tr>
+<td><font face="Calibri Light"><b>Gender
+</tr>
+<tr>
+<td><select>
+<option> Male
+<option> Female
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</tr>
+<tr>
+<td> <font face="Calibri Light"><b>Contact Number
+</tr>
+<tr>
+<td><input type=text size=41 name=t2>
+</tr>
+<tr>
+<td><font face="Calibri Light"><b>Location
+</tr>
+<tr>
+<td><select>
+<option> India  
+<option> Azerbiajan
+<option> Afghanisthan
+<option> Belgium
+<option> Canada
+<option> Denmark
+<option> Ethiopia
+<option> France
+<option> Guinea
+<option> Holland
+<option> Australia
+<option> Japan
+<option> Kenya
+<option> Labanon
+<option> Moscow
+<option> Nigeria
+<option> Oman
+<option> Phillippines
+<option> Qatar
+<option> Russia
+<option> Spain
+<option> Taiwan
+<option> USA
+<option> Venenzuela
+<option> Yemen
+<option> Zimbawe
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</tr>
+<tr><td></tr>
+<tr><td></tr>
+<tr>
+<td> <input type=button value="Generate your Password" onclick="password()">
+</tr>
+<tr> 
+<td><input type=password size=41 name=txt2>
+</tr>
+<tr>
+<td> <input type=button value="Show Password" onclick="show()">
+</tr>
+<tr> 
+<td><input type=text size=41 name=txt3>
+</tr>
+<tr><td></tr>
+<tr><td></tr>
+<tr><td></tr>
+<tr><td></tr>
+<tr>
+<td><center><input type=reset value="&nbsp;&nbsp;&nbsp; Reset &nbsp;&nbsp;&nbsp;">&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<input type=button value="&nbsp;&nbsp;&nbsp; Sign Up &nbsp;&nbsp;&nbsp;" onclick="al()"> 
+</tr>
+</table> 
+</tr>
+<tr> 
+<td align=center><font color=grey face="Calibri Light">One free account gets you into everything
+</tr>
+<tr>
+<td align=center><img src="ag9.jpg" width=500>
+</tr>
+<tr></tr>
+<tr>
+<td align=center><font color=grey face="Calibri Light" size=5>Take it all with you
+</tr>
+<tr>
+<td align=center><font color=grey face="Calibri Light">Switch between devices, and pick up wherever you left off.
+</tr>
+<tr>
+<td align=center><img src="Capture.png">
+</table>
+
+</form>
+</body>
+</html>
